@@ -1,0 +1,50 @@
+---
+title: "atividade 1"
+author: "Vanderson S B"
+date: "20/09/2021"
+output: html_document
+---
+
+```{r}
+ana = 8L
+paulo = 12L
+ifelse(ana>paulo,"A menina é mais velha","o menino é mais velho")
+
+```
+```{r}
+class(BOD)
+
+```
+```{r}
+numeros = c(1,2,3,4,5,6,7,8,9,10)
+for (i in numeros){
+  if(numeros[i]%%2==0)
+    print(numeros[i])
+}
+```
+
+
+```{r}
+tail(women,10)
+```
+
+
+```{r}
+iris50 = iris[50:100,c(2,3)]
+plot(iris50)
+```
+```{r}
+vet1 = c(1,2,3)
+vet2 = c(7,8,9)
+print(vet1 + vet2)
+```
+```{r}
+dim(CO2)[1]
+dim(CO2)[2]
+rownames(CO2)
+colnames(CO2)
+```
+```{r}
+CO2
+```
+
